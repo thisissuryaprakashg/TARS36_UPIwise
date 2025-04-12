@@ -46,11 +46,10 @@ UPIWise is ideal for:
 
 | Layer         | Tech                             |
 |---------------|----------------------------------|
-| 🖥 Frontend    | React Native / Flutter (optional layer) |
-| 🧠 AI/ML       | LLMs (OpenAI / Fine-tuned Models) |
-| 🔙 Backend     | Python + FastAPI                 |
-| 🗃 Database     | Firebase / PostgreSQL            |
-| 🔌 Integration | UPI APIs (PhonePe, Paytm, BHIM*) |
+| 🖥 Frontend    | React Native + Vite |
+| 🧠 AI/ML       | LLMs (Grok) |
+| 🔙 Backend     | Python + Flask                 |
+| 🔌 Integration | UPI APIs (Gpay) |
 
 > **Note**: UPIWise does not replace your UPI app — it complements it as a smart assistant!
 
