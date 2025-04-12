@@ -1,0 +1,196 @@
+/* ==== Base Styling ==== */
+body {
+  margin: 0;
+  background-color: #f7f7f7;
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #333;
+}
+
+/* ==== Containers ==== */
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* ==== Headings ==== */
+h2 {
+  font-size: 24px;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #333333;
+}
+
+.dashboard h2 {
+  margin-bottom: 30px;
+}
+
+/* ==== Form Styling ==== */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 25px;
+  padding: 20px 25px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+}
+
+/* ==== Labels ==== */
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333333;
+}
+
+/* ==== Inputs ==== */
+input[type="text"],
+input[type="number"],
+input {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 14px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease-in-out;
+  background-color: #fff;
+}
+
+input:focus {
+  border-color: #1a73e8;
+  outline: none;
+}
+
+/* ==== Buttons ==== */
+button {
+  background-color: #1a73e8;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 18px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #3367d6;
+}
+
+.scan-btn {
+  display: block;
+  margin: 25px auto 10px auto;
+}
+
+.logout-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 13px;
+  background-color: #e74c3c;
+  padding: 8px 14px;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;
+}
+
+/* ==== Stats Section ==== */
+.stats {
+  margin-top: 20px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 20px 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+}
+
+.stats p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #333333;
+}
+
+/* ==== QR Reader Styling ==== */
+#qr-reader {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  margin-top: 25px;
+  box-sizing: border-box;
+}
+
+/* ==== Chart Container ==== */
+.recharts-responsive-container {
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+}
+
+.back-button {
+  background-color: #eee;
+  color: #333;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #ddd;
+}
+
+
+/* ==== Responsive ==== */
+@media (max-width: 768px) {
+  .container {
+    margin: 20px;
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  .form-group, .stats, #qr-reader, .recharts-responsive-container {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  label, input, button {
+    font-size: 14px;
+  }
+
+  button {
+    padding: 10px 16px;
+  }
+
+  .logout-btn {
+    font-size: 12px;
+    padding: 6px 12px;
+    top: 10px;
+    right: 10px;
+  }
+}
