@@ -1,17 +1,65 @@
-<<<<<<< HEAD
-# React + Vite
+# 💸 UPIWise – Your Smart UPI Spending Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**UPIWise** is a smart add-on layer for existing UPI apps that helps users stay financially mindful by identifying and controlling impulsive spending in real-time.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 What is UPIWise?
 
-## Expanding the ESLint configuration
+UPIWise is an AI-powered assistant that classifies your UPI transactions as **"needs"** or **"wants"** the moment you scan a vendor's QR code. Using a powerful LLM (Large Language Model) backend, it delivers real-time, context-aware recommendations that help you make smarter financial decisions.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# TARS36_UPIwise
-UPIWise is a smart UPI add-on that uses LLMs to classify QR-based transactions as "needs" or "wants" in real-time. If a "want" risks your savings goal, it warns you before payment. Designed for mindful spending, especially for students and young adults.
->>>>>>> 702f62c8beee39ccca75c8fc543e422e635c44f3
+---
+
+## 🔍 How It Works
+
+- 🧠 **LLM-Powered Classification**  
+  Every transaction is instantly analyzed and labeled as a *need* or a *want*.
+
+- 🚦 **Impulse Control Alerts**  
+  If a *want* exceeds your configured savings threshold, UPIWise gently nudges you with a warning message.
+
+- 📊 **Mindful Spending Tracker**  
+  Keep track of how much you’ve spent on wants vs. needs, helping you reflect on spending patterns.
+
+---
+
+## 🎯 Who is it for?
+
+UPIWise is ideal for:
+- 🧑‍🎓 **Students**
+- 👩‍💼 **Young Adults**
+- 📱 **UPI-savvy users** who want to build better money habits
+
+---
+
+## 🌟 Key Features
+
+- ⚡ Real-time classification of transactions
+- 💬 Smart notifications and financial nudges
+- 💰 Personalized savings threshold
+- 📈 Spending analytics to track behavior
+- 🔗 Easily integrates with existing UPI apps
+
+---
+
+## 🧩 Tech Stack
+
+| Layer         | Tech                             |
+|---------------|----------------------------------|
+| 🖥 Frontend    | React Native / Flutter (optional layer) |
+| 🧠 AI/ML       | LLMs (OpenAI / Fine-tuned Models) |
+| 🔙 Backend     | Python + FastAPI                 |
+| 🗃 Database     | Firebase / PostgreSQL            |
+| 🔌 Integration | UPI APIs (PhonePe, Paytm, BHIM*) |
+
+> **Note**: UPIWise does not replace your UPI app — it complements it as a smart assistant!
+
+---
+
+## 🛠️ Setup & Installation
+
+> **Coming Soon** – This section will include how to run the project locally, API keys, and integration steps.
+
+
+
+
